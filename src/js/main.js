@@ -2,7 +2,8 @@
 const connection = new WebSocket('ws://localhost:8585');
 const webview = document.querySelector('webview');
 const balance = document.querySelector('#balance-val');
-const URL = 'https://doradobet.com/productos/betshop/';
+//const URL = 'https://doradobet.com/productos/betshop/';
+const URL = 'https://doradobet.com/productos/betshop2/';
 const URLBASE = 'http://localhost:8181';
 //const URLBASE = 'http://192.168.1.240:8080/rutavivo';
 const URLBALANSE =  URLBASE + '/api/counters/machine/balance';
