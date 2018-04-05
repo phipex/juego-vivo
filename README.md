@@ -13,4 +13,4 @@ npm i -D electron@latest
 
 npm install
 
-5. en la url de index.html y de main.js seleccionar la direccion indicada
+5. en la url de src/index.html y de src/js/main.js seleccionar la direccion indicada
