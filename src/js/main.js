@@ -10,6 +10,8 @@ const URLCASHOUT = URLBASE + "/api/even-logs/machine/cashout";
 
 console.log(webview);
 
+setInterval(getBalance, 1000);
+
 webview.addEventListener('did-navigate-in-page', getBalance);
 
 //did-navigate-in-page
